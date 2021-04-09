@@ -3,6 +3,8 @@ body, html {
     font-family: "Segoe UI";
     background-color: #1b262c;
     color: antiquewhite;
+    height: 100%;
+    overflow: hidden;
 }
 @media screen and (min-width: 320px) {
     body, html {
@@ -13,6 +15,13 @@ body, html {
     body, html {
       font-size: 22px;
     }
+}
+
+.logo {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .container {    
